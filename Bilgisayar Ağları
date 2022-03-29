@@ -1,0 +1,110 @@
+Ağ Nedir?
+Bilgisayar, yazıcı, kamera ve faks gibi çeşitli cihazların mevcut kaynakları ortak kullanımına olanak sağlayan ve veri iletimi gerçekleştiren yapılara ağ (network) denir. Ağ bağlantısı aynı mekandaki cihazlar arasında gerçekleştirilebileceği gibi, şehirler, ülkeler ve kıtalar arası ağ bağlantıları da kurulabilir.
+
+Bilgisayar Ağlarının Faydaları ve Kullanım Amaçları
+Ağ bağlantıları haberleşme, dosya ve kaynak paylaşımı gibi çeşitli amaçlarla kullanılırlar. Zamandan ve maddi kaynaklardan tasarruf sağlar. Bilgisayar ağlarının kullanım amaçları şöyledir;
+
+Kaynak Paylaşımı: Yazıcı, tarayıcı ve sabit disk gibi cihazların ortak kullanımı için.
+
+Dosya ve Veri Paylaşımı: Ağa bağlı bir sunucuda tutulan dosya ya da verilerin ağdaki diğer cihazlara paylaşımı, yetki ve güvenlik sınırlılıklarının kontrolü için.
+
+Uygulama Paylaşımı: Ağa bağlı bir cihazdaki uygulamanın (yazılımın) diğer cihazlardan da erişilebilir olması için. Çok oyunculu oyunların oynanması için.
+
+Haberleşme: Çeşitli yazılımlar aracılığı ile sağlanan iletişim ve haberleşme olanakları için. Bir web sitesine erişmek, görüntülü yada sesli görüşme yapmak için.
+
+Ağ Türleri
+Bilgisayar ağları türlerine göre intranet, extranet ve internet olmak üzere 3 sınıfa ayrılır.
+
+İntranet: Genellikler kurum ve şirket içerisinden kullanılan kapalı alan ağıdır.
+
+Extranet: Dışarıya yetki ve güvenlik kontrolü ile sınırlı bağlantısı ile intranet bağlantısı.
+
+İnternet: Bilgisayar ağlarının bir araya gelerek oluşturduğu dünyanın en büyük iletişim ve haberleşme ağı.
+
+Bilgisayar Ağları Temel Bileşenleri
+Bilgisayar ağları için gerekli temel bileşenler aşağıda açıklanmıştır.
+
+Ağ Kartı (nic): Ethernet kartı ismi ile bilinen ağ arayüz kartı (network interface card) cihazların ağ ile haberleşmesini sağlayan birimdir.
+
+Sunucu (server): Kullanım amacı özel yazılımlar (dosya, veri tabanı) barındıran ve ağda hizmet sağlayan bilgisayarlardır.
+
+İstemci (client): Sunucudan hizmet alan, ağ üzerinden iletişim ve haberleşme sağlayan cihazlar.
+
+Veri İletimi
+Verinin bir noktadan diğer bir noktaya taşınması işlemine veri iletimi denir. Bilgisayar ağları üzerinden veri iletimi dijital olmakla birlikte analog, ışıkla ve ses dalgalarıyla veri iletimi kullanan sistemlerde mevcuttur. Paralel ve seri olmak üzere 2 temel veri iletim sürü vardır.
+
+Paralel Veri İletimi
+Verinin 8 bitlik paketler halinde 8 hatlı bir yol üzerinden iletildiği türdür.
+
+Seri Veri İletimi
+Verinin bit bit olmak üzere ve tek hatlı bir yol üzerinden iletildiği türdür.
+
+Asenkron Seri İletim: Veri gönderilirken, verinin başına başlangıç biti ve sonuna bitiş biti ekleyerek iletim yapılır. Başlangıç biti 0, bitiş biti 1 değerindedir.
+
+Senkron Seri İletim: Başlangıç ve bitiş biti olmadan, saat sinyali ile eş zamanlı olarak gerçekleştirilen seri iletim türü.
+
+Eşlik Biti: İkilik tabandaki verinin tek ya da çift olması durumuna göre verinin kontrolünü sağlayan kontrol bitidir.
+
+Bandwidth: Veri iletim hattının veri taşıma kapasitesine bant genişliği (bandwidth) denir.
+
+Veri İletim Tipleri
+Veri iletimi baseband ve broadband olmak üzere 2 tipte gerçekleştirilir.
+
+Baseband - Broadband
+Baseband – Broadband
+Baseband: Tek bir sinyal ile veri iletimi sağlayan iletim tipi baseband olarak adlandırılır.
+
+Broadband: Farklı frekanslara sahip birden çok sinyal ile veri iletimi sağlayan tip broadband olarak adlandırılır.
+
+Veri İletim Yöntemleri
+Tek yönlü, yarı çift yönlü ve çift yönlü olmak üzere yönlerine göre 3 çeşit veri iletim yöntemi mevcuttur.
+
+Simplex: Tek yönlü veri iletimi simlex olarak adlandırılır. Televizyon kumandası tek yönlü veri iletimi örneğidir.
+
+Half-Duplex: Yarı çift yönlü veri iletiminde iki yönlü iletişim gerçekleşir ancak aynı anda gerçekleşmez. Telsizler yarı çift yönlü veri iletiminin örneğidir.
+
+Full-Duplex: Çift yönlü veri iletiminin aynı anda da mümkün olduğu yöntemdir. Telefonlar çift yönlü iletişimin örneğidir.
+
+Ağ Kabloları
+Ağ bağlantısı yapmak ve veri iletimini gerçekleştirmek üzere kullanılan ağ kabloları aşağıda açıklanmıştır.
+
+Koaksiyel Kablo
+Eş eksenli de denilen, çoklu ortam verilerinin iletiminde ve bilgisayar ağlarında kullanılan bakır kablo çeşididir.
+
+Çift Burgulu Kablolar (TP)
+Günümüzde bilgisayar ağları için yaygın kullanıma sahip kablo türü çift burgulu (twisted pair-TP) kablolardır. Çift burgulu kablolar üretim ve koruma özelliklerine göre 4 sınıfa ayrılır.
+
+Çift Burgulu Kablo - TP Kablo Çeşitleri
+Çift Burgulu Kablo – TP Kablo Çeşitleri
+UTP – Unshielded Twisted Pair (Korumasız Çift Burgulu Kablo)
+
+Çift burgulu kablolar içerisinde en yaygın kullanıma sahip kablo korumasız çift burgulu kablodur. 100 metreye kadar veri iletimi için kullanılan ve herhangi bir koruma tedbiri olmayan çift burgulu kablo türüdür.
+
+STP – Shielded Twisted Pair (Korumalı Çift Burgulu Kablo)
+
+Dış plastik koruyucunun altında metal bir örgü yardımı ile dış etkenlerden korumayı sağlayan çift burgulu kablo türüdür.
+
+FTP – Foiled Twisted Pair (Folyolu Çift Burgulu Kablo)
+
+Dış plastik koruyucunun altındaki metal bir kılıf ile dış etkenlerden korunmayı sağlayan çift burgulu kablo türüdür. Elektromanyetik etkiye karşı STP kadar korunaklı olmasa da önemli ölçüde etkiyi azaltabilir.
+
+S/FTP – Shielded / Foiled Twisted Pair (Korumalı ve Folyolu Çift Burgulu)
+
+Daha fazla koruma sağlamak amacı ile STP ve FTP korumasının birlikte kullanıldığı çift burgulu kablo türüdür.
+
+Çift burgulu kablolar veri iletim kapasitesi, frekansı ve sarmal sayısına göre çeşitli sınıflara ayrılır. Category olarak adlandırılan çift burgulu kablo sınıfları Cat (cat5, cat6 gibi) kısaltması ile kullanılır. Aşağıdaki tabloda çift burgulu kablo sınıfları gösterilmektedir.
+
+Fiber Optik Kablo
+Fiber optik kablolar dijital veriyi ışık kırılması kuralına göre cam madde üzerinde ileten kablo türüdür. Hat üzerinden farklı açılarla veri iletimine olanak sağladığı ve ışık ile iletim yaptığı için bant genişliği yani veri iletim hızı yüksektir. Geniş bilgisayar ağları için genellikle fiber optik kablo kullanılır.
+
+Fiber optik kablo kullanımının avantajları
+
+  - Yüksek iletim hızı ve bant genişliği
+  - Uzak mesafelere veri iletiminde yüksek verimlilik
+  - Elektromanyetik alanlardan etkilenmeme
+  - Güvenli veri iletimi.
+  - Fiber optik kablo kullanımının dezavantajları
+
+Yüksek maliyet
+Uzmanlık gerektiren işçilik
+Zahmetli altyapı süreci
