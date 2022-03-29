@@ -1,0 +1,26 @@
+Ağ Mimarileri Nedir?
+Ağ mimarileri, ağa bağlı cihazların birbirleri ile iletişim yöntemlerini belirleyen tasarımlardır. Ağ üzerindeki cihazların iletişim yöntemine göre tasarlanmış çeşitli ağ mimarileri vardır. En yaygın kullanılan ağ mimarileri P2P ve client server mimarisi aşağıda açıklanmıştır.
+
+P2P Mimarisi (Peer to Peer)
+Eşler arası mimari denilen P2P (peer to peer) ağ mimarisinde merkezi bir sunucuya ihtiyaç yoktur. Ağa bağlı cihazlar hem istemci hemde sunucu gibi çalışabilirler. Genellikle dosya, yazıcı ve internet paylaşımı için kullanılırlar. Bu tür ağlar genellikle evlerde ve merkezi yönetim gerektirmeyen kurumlarda kullanılırlar.
+
+P2P ağ mimarisinin en önemli özelliği eşler arasında çeşitli ağ bağlantı cihazları olabilmesine rağmen bir sunucu bulundurmamasıdır. Server bulundurmayan P2P mimarileri paylaşıma açılan verinin ağa bağlı tüm cihazlardan erişilebilir olması ve yetki ya da güvenlik kontrolüne yapılmaması anlamına gelir. Eşler arası mimaride güvenlik göz ardı edilmiştir.
+
+Client Server Mimarisi (İstemci Sunucu)
+Genellikle üstün donanımsal özelliklere sahip bir sunucuya bağlı istemci cihazların sunucu üzerinden yetki kontrollerinden geçerek veri ve kaynaklara eriştiği mimaridir. İstemci – sunucu mimarisinde istemciler sunucudan bağımsız da hareket edebilirler. Ancak sunucu üzerinden veri ve kaynak kullanımı sunucunun belirlediği yetkilere göre gerçekleştirilir.
+
+Client Server Mimarisi (İstemci Sunucu)
+Client Server Mimarisi (İstemci Sunucu)
+Client server mimarisi internet erişiminde kullanılan mimaridir. İnternet Explorer aracılığı ile google.com’ a girmek isteyen bir kullanıcının cihazı istemci rolünde, bu isteği alıp işleyen ve sayfayı tarayıcıya ileten google serverları da sunucu rolünde olur.
+
+Client server mimarisi sunucu yerleşimlerine göre 2 katmanlı (2 tier) ve 3 katmanlı (3 tier) olmak üzere 2 sınıfa ayrılır.
+
+2 Katmanlı (2-tier) İstemci Sunucu Mimarisi
+2 Katmanlı Client-Server Mimarisi
+2 Katmanlı Client-Server Mimarisi
+Bu mimarinin katmanları istemci ve sunucudur. İstemci doğrudan sunucu ile iletişime geçebilir. Performans ve güvenlik açıklarına sebep olabilemektedir. Güvenlik açıklarının önüne geçmek için Secure Socket Layer (SSL) kullanılır.
+
+3 Katmanlı (3-tier) İstemci Sunucu Mimarisi
+3 Katmanlı Client-Server Mimarisi
+3 Katmanlı Client-Server Mimarisi
+İstemci ve sunucu katmanları arasına 3. bir katman olan uygulama katmanının bulunduğu mimaridir. İstemciden gelen talebi karşılamak ve yetki kontrolünden sonra sunucuya iletmekle görevli uygulama katmanı güvenliği sağlamak için kullanılır. Sunucudan istemciye gidecek olan yanıt yine bu katmandan geçerek istemciye ulaşır. Yüksek performans ve güvenlik gerektiren durumlarda 3 katmanlı mimari kullanılır. Çok daha yüksek güvenlik gerektiren durumlarda uygulama katmanının sayısının artırıldığı 4,5 ve 6 katmanlı mimariler de kullanılmaktadır.
